@@ -17,11 +17,10 @@ pip install uv
 
 2. Clone the repository and set up the environment:
 ```bash
-git clone [repository-url]
+git clone https://github.com/iamarunbrahma/nb-link-checker.git
 cd nb-link-checker
 uv venv
 source .venv/bin/activate  # On Unix/macOS
-# or
 .venv\Scripts\activate  # On Windows
 ```
 
@@ -40,8 +39,9 @@ python nb_link_checker.py
 
 Specify a custom project directory and output file:
 ```bash
-python nb_link_checker.py -p /path/to/notebooks -o custom_report.md
+python nb_link_checker.py -p /directory_path -o custom_report.md # replace `/directory_path` with your custom path
 ```
+
 
 ### Command Line Arguments
 
