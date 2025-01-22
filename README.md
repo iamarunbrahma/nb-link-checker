@@ -1,6 +1,6 @@
 # Notebook Link Checker
 
-This tool scans through all Jupyter notebooks in a specified directory, extracts URLs from markdown and code cells, and validates if the links are valid or broken.
+This tool scans through all Jupyter notebooks in a specified directory, extracts URLs from markdown and code cells, and checks if the extracted links are valid or broken.
 
 ## Features
 
